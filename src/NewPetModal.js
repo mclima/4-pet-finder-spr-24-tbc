@@ -3,7 +3,6 @@ import { Dialog } from '@headlessui/react'
 import PetForm from './PetForm'
 
 const NewPetModal = ({ onCancel, onSave }) => {
-  // let [isOpen, setIsOpen] = useState(true)
   return (
     <Dialog open={true} onClose={onCancel}>
       <div className="dialog">
